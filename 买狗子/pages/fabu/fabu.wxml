@@ -1,0 +1,33 @@
+<!--pages/fabu/fabu.wxml-->
+<view class='content'>
+  <view class='xuanzhedizhi' bindtap='dingwei'>
+    <text>我的地址</text>
+    <text>{{value}}</text>
+  </view>
+  <view class='xuanzhedizhi'>
+    <view class='teshu'>
+      <text>类型</text>
+    </view>
+    <view>
+      <radio-group class="radio-group" bindchange='radioChange'>
+        <label class="radio">
+          <radio value="收购"/>{{"收购"}}
+        </label>
+        <label class="radio">
+          <radio value="转让"/>{{"转让"}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <view class='xuanzhedizhi'>
+    <text>说明</text>
+    <input placeholder='请填写你的具体要求' data-id='1' bindinput="inputChang" placeholder-class='pagesclass'></input>
+  </view>
+  <view class='xuanzhedizhi'>
+    <text>联系方式</text>
+    <input placeholder='填写你的联系方式' data-id='2' bindinput="inputChang" placeholder-class='pagesclass'></input>
+  </view>
+  <button bindtap='handadd'>发布消息</button>
+  
+  <button bindtap='handcmane'>拍照上传</button>
+</view>

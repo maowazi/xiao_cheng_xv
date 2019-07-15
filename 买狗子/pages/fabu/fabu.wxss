@@ -1,0 +1,25 @@
+/* pages/fabu/fabu.wxss */
+.xuanzhedizhi{
+  display: flex;
+  align-items: center;
+  height: 90rpx;
+  line-height: 50rpx;
+  border-bottom: 1px solid #ccc;
+  padding: 0 10rpx;
+
+}
+.xuanzhedizhi text{
+  font-size: 35rpx;
+}
+.xuanzhedizhi text:first-child{
+  margin-right: 50rpx;
+}
+.xuanzhedizhi text:last-child{
+  color: #ccc;
+}
+.teshu>text{
+  color: #000 !important;
+}
+.pagesclass{
+  color: #ccc;
+}

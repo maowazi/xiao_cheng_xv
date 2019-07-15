@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "address": "广东省深圳市宝安区地铁1号线(罗宝线),地铁5号线(环中线)等2条线路",
+      "leixing": "转让",
+      "shuoming": "转让一个拆迁队长哈士哥",
+      "dianhua": "110",
+      "latitude": 22.554628,
+      "longitude": 113.887171,
+      "iconPath": "/img/timg1.jpg",
+      "width": 30,
+      "height": 30,
+      "id": 1
+    },
+    {
+      "address": "广东省深圳市宝安区宝源南路201号",
+      "leixing": "收购",
+      "shuoming": "收购拆迁队长一头哈士熊",
+      "dianhua": "88888888888",
+      "latitude": 22.5555,
+      "longitude": 113.87767,
+      "iconPath": "/img/timg1.jpg",
+      "width": 30,
+      "height": 30,
+      "id": 2
+    },
+    {
+      "address": "广东省深圳市宝安区新湖路与创业一路交汇处",
+      "leixing": "收购",
+      "shuoming": "收购旺财一只小黄狗",
+      "dianhua": "99999999999",
+      "latitude": 22.55362,
+      "longitude": 113.8873,
+      "iconPath": "/img/timg1.jpg",
+      "width": 30,
+      "height": 30,
+      "id": 3
+    },
+    {
+      "address": "广东省深圳市宝安区宝兴路1号",
+      "leixing": "转让",
+      "shuoming": "转让忠犬旺财大黄一只",
+      "dianhua": "66666",
+      "latitude": 22.54938,
+      "longitude": 113.88278,
+      "iconPath": "/img/timg1.jpg",
+      "width": 30,
+      "height": 30,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+/**index.wxss**/
+.container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 120rpx;
+}
+#map{
+  width: 100%;
+  height: 100%;
+
+}
+.footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120rpx;
+  background-color: red;
+  display: flex;
+}
+navigator{
+  flex: 50%;
+  height: 100%;
+}
+.footer view{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer navigator:first-child{
+  background-color: yellowgreen;
+}
+.footer navigator:last-child{
+  background-color: yellow;
+}

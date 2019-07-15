@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/todo/todo"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "豆瓣",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ccc",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#f40",
+    "backgroundColor": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/img/fangzi.png",
+        "selectedIconPath": "/img/seledfangzi.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "/img/wode.png",
+        "selectedIconPath": "/img/seledwode.png",
+        "text": "列表"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 3000
+  }
+}

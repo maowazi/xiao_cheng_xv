@@ -1,0 +1,3 @@
+<!--pages/paizhao/paizhao.wxml-->
+<camera mode='scanCode' device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+<button bindtap="takePhoto">点击拍照</button>

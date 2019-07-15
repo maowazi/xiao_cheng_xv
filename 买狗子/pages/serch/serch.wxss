@@ -1,0 +1,37 @@
+/* pages/serch/serch.wxss */
+page{
+  background-color:#ccc; 
+}
+.content{
+  background-color: #fff;
+  padding: 20rpx 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+}
+.serch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00f;
+  padding: 10rpx 20rpx;
+}
+.serch input{
+  background-color:#fff;
+  height: 40rpx;
+  border-radius: 10rpx; 
+  padding-left: 10rpx;
+  width: 600rpx;
+}
+.serch text{
+  color: #fff;
+}
+.inputstyle{
+  color: #ccc;
+}
+.content view text{
+  color: gold;
+  font-size: 30rpx;
+}
+.content view:last-child text{
+  color: #000;
+}

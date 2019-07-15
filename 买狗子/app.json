@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/serch/serch",
+    "pages/fabu/fabu",
+    "pages/details/details",
+    "pages/paizhao/paizhao"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "收狗子",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你家位置偷你的狗子"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,52 @@
+<!--pages/list/list.wxml-->
+<view class='{{mag}}'>
+  <text>{{n}}</text>
+</view>
+<button bindtap='handadd'>点击</button>
+<view>
+  <button catchtap='gogo'>跳转到todo页面</button>
+</view>
+<view class='box1' catchtap='hand1' data-id='1'>
+  <text>box1</text>
+  <view class='box2' catchtap='hand2'><text>box2接收值是:{{num}}</text></view>
+</view>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+  <text>{{item}}----------{{index}}</text>
+</view>
+<block wx:if="{{flag == 1}}">
+  <view>
+    <text>11</text>
+  </view>
+</block>
+<block wx:elif="{{flag == 2}}">
+  <view>
+    <text>22</text>
+  </view>
+</block>
+<block wx:else="{{flag == 3}}">
+  <view>
+    <text>33</text>
+  </view>
+</block>
+<input bindinput='handchange'></input>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+  <view><text>哈哈</text></view>
+

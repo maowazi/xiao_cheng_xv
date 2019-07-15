@@ -1,0 +1,14 @@
+<!--pages/todo/todo.wxml-->
+<view class='box1'>
+  <view>脚啥<input bindinput='handval' data-id='1' value='{{jiao}}'></input></view>
+  <view>电话<input bindinput='handval' data-id='2' value='{{phone}}'></input></view>
+  <view>住哪<input bindinput='handval' data-id='3' value='{{address}}'></input></view>
+  <view><button catchtap='handadd'>点击添加</button></view>
+  <view wx:for="{{list}}" wx:key="{{index}}">
+      <view>{{item.jiao}}</view>
+      <view>{{item.phone}}</view>
+      <view>{{item.address}}</view>
+      <button bindtap='handdele' data-index="{{index}}">删除</button>
+  </view>
+</view>
+

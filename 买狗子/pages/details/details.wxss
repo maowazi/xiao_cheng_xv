@@ -1,0 +1,14 @@
+/* pages/details/details.wxss */
+.content{
+  background-color: #fff;
+}
+.content>view{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx 10rpx;
+  color: #00f;
+}
+.content>view text:first-child{
+  color: #000;
+  margin-right: 20rpx;
+}

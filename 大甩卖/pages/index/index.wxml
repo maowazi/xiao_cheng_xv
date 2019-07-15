@@ -1,0 +1,72 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='serch'>
+    <image src='/img/选中菜单.png'></image>
+    <view><input></input></view>
+  </view>
+  <view class='list'>
+    <view class='listinner'>
+      <view>全部</view>
+      <view>女装</view>
+      <view>男装</view>
+      <view>鞋子</view>
+      <view>箱包</view>
+      <view>母婴</view>
+      <view>内衣</view>
+    </view>
+  </view>
+  <swiper class='imgbox' indicator-dots="true" indicator-color="#ffc0cb" indicator-active-color="#fff" autoplay="true" interval="4000" duration="1000" circular="true">
+    <block wx:for="{{imglist}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='imglist'>
+    <view>
+      <image src='http://www.800zhe.com//data/uploads/banner/20170603/2d2327be1ba82af9fc16c2ce6972cee1.png'></image>
+      <text>9.9包邮</text>
+    </view>
+    <view>
+      <image src='http://www.800zhe.com//data/uploads/banner/20170603/b471331fa789f50e8a333c42c52fefa3.png'></image>
+      <text>20封顶</text>
+    </view>
+    <view>
+      <image src='http://www.800zhe.com//data/uploads/banner/20170603/b8b7de6427251caa8bb5621cb53b0439.png'></image>
+      <text>爆款疯抢</text>
+    </view>  
+    <view>
+      <image src='http://www.800zhe.com//data/uploads/banner/20170603/262adc7a3cf651e2f54cf49c2a86f748.png'></image>
+      <text>领卷直播</text>
+    </view>
+  </view>
+  <view class='bigbox' wx:for="{{datalist}}" wx:key="{{index}}">
+    <view>
+      <image src='{{item.img}}' bindtap='handTo' data-id="{{item.video}}"></image>
+    </view>
+
+    <view class='box2'>
+      <view>
+        <image src=''></image>
+        <text>{{item.intro}}</text>
+      </view>
+      <view class='pages'>
+        <text>{{item.discount_price}}￥</text>
+        <text>￥{{item.price}}</text>
+      </view>
+      <view class='big'>
+        <text>已抢购93%</text>
+        <text>剩余7000</text>
+      </view>
+      <view class='jindu'><view class='jinduinner'></view></view>
+    </view>
+
+    <view class='box3'>
+      <view class='yuan1'></view>
+      <view>￥{{item.coupon_price}}</view>
+      <view>优惠劵</view>
+      <view>领劵买</view>
+      <view class='yuan2'></view>
+    </view>
+  </view>
+</view>

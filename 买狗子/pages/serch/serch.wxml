@@ -1,0 +1,9 @@
+<!--pages/serch/serch.wxml-->
+<view class='serch'>
+  <input placeholder='输入搜索内容' placeholder-class='inputstyle' bindinput='handvalue'></input>
+  <text bindtap='handserch'>搜索</text>
+</view>
+<view class='content' wx:for="{{datalist}}" wx:key='{{index}}' bindtap='handdetails' data-id='{{item.id}}'>
+  <view><text>{{item.address}}</text><text>【{{item.leixing}}】</text></view>
+  <view><text>{{item.shuoming}}</text></view>
+</view>

@@ -1,0 +1,5 @@
+/* components/header/header.wxss */
+.header{
+  height: 300rpx;
+  background-color: gold;
+}

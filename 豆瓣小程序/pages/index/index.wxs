@@ -1,0 +1,15 @@
+function scer(idx,str){
+  if (str){
+    if (idx < parseInt(Math.ceil(str) / 2)){
+      return "active"
+    }else{
+      return 
+    }
+
+  }else{
+    return false
+  }
+}
+module.exports={
+  scer:scer
+}

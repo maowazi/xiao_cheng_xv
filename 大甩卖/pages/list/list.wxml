@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view class="section tc">
+    <video id="myVideo" src="{{video}}" class='videos' wx:if="{{flag}}" enable-danmu danmu-btn controls></video>
+    <text wx:else>此产品没有视频</text>
+  </view>
+  <button open-type='getUserInfo' bindgetuserinfo='handuser'>获取用户信息</button>
+</view>

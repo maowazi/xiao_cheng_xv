@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view class='content'>
+  <view>
+    <image src='{{src}}'></image>
+  </view>
+  <view>
+    <text>{{name}}</text>
+  </view>
+</view>

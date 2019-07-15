@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <button open-type='getUserInfo' bindgetuserinfo='handdata'>open-type获取用户信息</button>
+  <button bindtap='hand2'>授权位置没有地图经纬度</button>
+  <button bindtap='hand'>授权地理位置有地图的</button>
+  <button bindtap='hand3'>手动授权</button>
+  <hear bbb='哈哈'/>
+</view>

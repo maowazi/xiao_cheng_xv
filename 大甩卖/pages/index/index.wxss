@@ -1,0 +1,146 @@
+/**index.wxss**/
+.userinfo {
+
+}
+page{
+  background: #ccc;
+}
+.serch{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90rpx;
+  background-color:#ffc0cb; 
+}
+.serch image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.serch input{
+  width: 550rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  padding-left: 30rpx;
+  background-color: #fff;
+}
+.list{
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  overflow-y: hidden;
+  background:#fff;
+}
+.list::-webkit-scrollbar{
+  display: none;
+}
+.imgbox image{
+  width: 100%;
+}
+.listinner{
+  display: flex;
+}
+.listinner view{
+  text-align: center;
+  width: 150rpx;
+}
+.imglist{
+  height: 250rpx;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+.imglist view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imglist image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.bigbox{
+  display: flex;
+  background: #fff;
+  margin-top: 30rpx;
+  padding: 15rpx;
+}
+.bigbox>view{
+  margin-right: 15rpx;
+}
+.bigbox>view>image{
+  width: 250rpx;
+  height: 250rpx;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 290rpx;
+  padding-right: 20rpx;
+  border-right: 1px dotted #ccc;
+}
+.box2 view:nth-child(1){
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.box2 image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.box2 text{
+  font-size: 30rpx;
+}
+.pages{
+  display: flex;
+  justify-content: space-between;
+}
+.pages text:last-child{
+  text-decoration:line-through;
+}
+.big{
+  display: flex;
+  justify-content: space-between;
+}
+.big text{
+  font-size: 25rpx;
+  color: #ccc;
+}
+.jindu{
+  width: 100%;
+  height: 10rpx;
+  border: 1px solid #ccc;
+  border-radius:5rpx; 
+}
+.jindu view{
+  background: #ffc0cb;
+  height: 100%;
+  width: 40rpx;
+}
+.box3{
+  width: 120rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+}
+.yuan1{
+  height: 40rpx;
+  width: 40rpx;
+  background:#ccc;
+  border-radius: 50%;
+  position: relative;
+  top:-30rpx; 
+}
+.yuan2{
+  height: 40rpx;
+  width: 40rpx;
+  background:#ccc;
+  border-radius: 50%;
+  position: relative;
+  bottom:-30rpx; 
+}

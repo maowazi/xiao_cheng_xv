@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='serch'>
+    <view>
+      <icon type="search" size="20" />
+      <input></input>
+
+    </view>
+  </view>
+  <view class='tableheader'>
+    <text>近期上映</text>
+    <text>更多</text>
+  </view>
+  <view class='listbox'>
+    <view class='listinner' wx:for="{{movie}}" wx:key="{{index}}">
+      <image src='{{item.cover.url}}' bindtap='handgo' data-id='{{item.cover.url}}' data-name='{{item.title}}'></image>
+      <view>
+        <text>{{item.title}}</text>
+      </view>
+      <view>
+        <block wx:for="{{n}}" wx:for-item='itm' wx:for-index='idx' wx:key="{{idx}}">
+          <text class='{{moves.scer(idx,item.rating.value)}}'>☆</text>
+        </block>
+        <text>{{item.rating.value}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='tableheader'>
+    <text>免费在线电影</text>
+    <text>更多</text>
+  </view>
+  <view class='listbox'>
+    <view class='listinner' wx:for="{{movies}}" wx:key="{{index}}">
+      <image src='{{item.cover.url}}' bindtap='handgo' data-id='{{item.cover.url}}' data-name='{{item.title}}'></image>
+      <view>
+        <text>{{item.title}}</text>
+      </view>
+      <view>
+        <block wx:for="{{n}}" wx:for-item='itm' wx:for-index='idx' wx:key="{{idx}}">
+          <text class='{{moves.scer(idx,item.rating.value)}}'>☆</text>
+        </block>
+        <text>{{item.rating.value}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<wxs src="./index.wxs" module="moves" />
